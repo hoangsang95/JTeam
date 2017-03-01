@@ -1,0 +1,14 @@
+{
+    "name": "skyteam/sangduc",
+    "description": "Tao package mau...",
+    "type": "project",
+    "license": "SkyTeam",
+    "authors": [
+        {
+            "name": "SkyTeam",
+            "email": "skyteam@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
