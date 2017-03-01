@@ -23,81 +23,32 @@
             <div class="heading-counter warning">Your shopping cart contains:
                 <span>1 Product</span>
             </div>
-            <div class="order-detail-content">
-                <table class="table table-bordered table-responsive cart_summary">
-                    <thead>
-                        <tr>
-                            <th class="cart_product">Product</th>
-                            <th>Description</th>
-                            <th>Avail.</th>
-                            <th>Unit price</th>
-                            <th>Qty</th>
-                            <th>Total</th>
-                            <th  class="action"><i class="fa fa-trash-o"></i></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="cart_product">
-                                <a href="#"><img src="assets/data/product-100x122.jpg" alt="Product"></a>
-                            </td>
-                            <td class="cart_description">
-                                <p class="product-name"><a href="#">Frederique Constant </a></p>
-                                <small class="cart_ref">SKU : #123654999</small><br>
-                                <small><a href="#">Color : Beige</a></small><br>   
-                                <small><a href="#">Size : S</a></small>
-                            </td>
-                            <td class="cart_avail"><span class="label label-success">In stock</span></td>
-                            <td class="price"><span>61,19 €</span></td>
-                            <td class="qty">
-                                <input class="form-control input-sm" type="text" value="1">
-                                <a href="#"><i class="fa fa-caret-up"></i></a>
-                                <a href="#"><i class="fa fa-caret-down"></i></a>
-                            </td>
-                            <td class="price">
-                                <span>61,19 €</span>
-                            </td>
-                            <td class="action">
+            <div class="order-detail-content table-responsive">
+                <table class="table table-hover">
+					<thead>
+					  <tr>
+						<th>Image</th>
+						<th class="hidden-xs">Name</th>
+						<th width="50px">Price</th>
+						<th>Quantity</th>
+						<th>Action</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td> <a href="#"><img src="assets/data/product-100x122.jpg" alt="Product"></a>
+							<p class="visible-xs">Frederique Constant</p>
+						</td>
+						<td class="hidden-xs"><a href="#">Frederique Constant </a></td>
+						<td>61,19 €</td>
+						<td><input style="width:50px" type="number" value="1"></td>
+						<td class="action">
                                 <a href="#">Delete item</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="cart_product">
-                                <a href="#"><img src="assets/data/product-100x122.jpg" alt="Product"></a>
-                            </td>
-                            <td class="cart_description">
-                                <p class="product-name"><a href="#">Frederique Constant </a></p>
-                                <small class="cart_ref">SKU : #123654999</small><br>
-                                <small><a href="#">Color : Beige</a></small><br>   
-                                <small><a href="#">Size : S</a></small>
-                            </td>
-                            <td class="cart_avail"><span class="label label-success">In stock</span></td>
-                            <td class="price"><span>61,19 €</span></td>
-                            <td class="qty">
-                                <input class="form-control input-sm" type="text" value="1">
-                                <a href="#"><i class="fa fa-caret-up"></i></a>
-                                <a href="#"><i class="fa fa-caret-down"></i></a>
-                            </td>
-                            <td class="price">
-                                <span>61,19 €</span>
-                            </td>
-                            <td class="action">
-                                <a href="#">Delete item</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="2" rowspan="2"></td>
-                            <td colspan="3">Total products (tax incl.)</td>
-                            <td colspan="2">122.38 €</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3"><strong>Total</strong></td>
-                            <td colspan="2"><strong>122.38 €</strong></td>
-                        </tr>
-                    </tfoot>    
-                </table>
+                        </td>
+					  </tr>
+					  
+					</tbody>
+				  </table>
                 <div class="cart_navigation">
                     <a class="prev-btn" href="#">Continue shopping</a>
                     <a class="next-btn" href="#">Proceed to checkout</a>
