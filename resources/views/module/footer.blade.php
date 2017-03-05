@@ -88,7 +88,6 @@
                         <li><a href="#" >Contact</a></li>
                     </ul>
                 </div>
-                <p class="text-center">Copyrights &#169; 2015 KuteShop. All Rights Reserved. Designed by KuteThemes.com</p>
             </div><!-- /#footer-menu-box -->
         </div> 
 </footer>
