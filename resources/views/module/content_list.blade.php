@@ -148,53 +148,7 @@
                             
                             <!-- ./filter brand -->
                             <div class="layered_subtitle">Thương hiệu</div>
-                            <div class="layered-content filter-brand">
-                                <ul class="check-box-list">
-                                    <li>
-                                        <input type="checkbox" id="brand1" name="cc" />
-                                        <label for="brand1">
-                                        <span class="button"></span>
-                                        Channelo<span class="count">(0)</span>
-                                        </label>   
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="brand2" name="cc" />
-                                        <label for="brand2">
-                                        <span class="button"></span>
-                                        Mamypokon<span class="count">(0)</span>
-                                        </label>   
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="brand3" name="cc" />
-                                        <label for="brand3">
-                                        <span class="button"></span>
-                                        Pamperson<span class="count">(0)</span>
-                                        </label>   
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="brand4" name="cc" />
-                                        <label for="brand4">
-                                        <span class="button"></span>
-                                        Pumano<span class="count">(0)</span>
-                                        </label>   
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="brand5" name="cc" />
-                                        <label for="brand5">
-                                        <span class="button"></span>
-                                        AME<span class="count">(0)</span>
-                                        </label>   
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- ./filter brand -->
-                           
-                        </div>
-                        <!-- ./layered -->
 
-                    </div>
-                </div>
-                <!-- ./block filter  -->
                 <!-- SPECIAL -->
                 <div class="block left-module">
                     <p class="title_block">SPECIAL PRODUCTS</p>
