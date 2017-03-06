@@ -1,4 +1,4 @@
- <div class="container main-header">
+<div class="container main-header">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-3 logo">
                 <a href="index-2.html"><img height="65" alt="Kute Shop" src="assets/images/cpp.png" /></a>
@@ -7,34 +7,33 @@
                 <form class="form-inline">
                       <div class="form-group form-category">
                         <select class="select-category">
-                            <option value="2">All Categories</option>
-                            <option value="1">Men</option>
-                            <option value="2">Women</option>
+                            <option value="2">Tất cả</option>
+                            <option value="1">Nam</option>
+                            <option value="2">Nữ</option>
                         </select>
                       </div>
                       <div class="form-group input-serach">
-                        <input type="text"  placeholder="Keyword here...">
+                        <input id="keys" type="text"  placeholder="Sản phẩm cần tìm...">
                       </div>
                       <button type="submit" class="pull-right btn-search"></button>
                 </form>
                 <div class="keyword">
-                    <p class="lebal">Keywords:</p>
+                    <p class="lebal">Từ khóa:</p>
                     <p>
-                        <a href="#">T-shirt, </a>
-                        <a href="#">Leggings, </a>
-                        <a href="#">Cotton, ...</a>
+                        <a href="#">Giày, </a>
+                        <a href="#">Túi xách, ...</a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-5 col-sm-3 col-md-2 group-button-header">
-                <a title="Compare" href="#" class="btn-compare">compare</a>
-                <a title="My wishlist" href="#" class="btn-heart">wishlist</a>
+                <a title="Compare" href="#" class="btn-compare">So sánh</a>
+                <a title="My wishlist" href="#" class="btn-heart">Tặng</a>
                 <div class="btn-cart" id="cart-block">
-                    <a title="My cart" href="http://kute-themes.com/prestashop/kuteshop/">Cart</a>
+                    <a title="My cart" href=">Giỏ</a>
                     <span class="notify notify-right">2</span>
                     <div class="cart-block">
                         <div class="cart-block-content">
-                            <h5 class="cart-title">2 Items in my cart</h5>
+                            <h5 class="cart-title">2 sản phẩm trong giỏ</h5>
                             <div class="cart-block-list">
                                 <ul>
                                 <li class="product-info">
@@ -70,7 +69,7 @@
                                 <span class="toal-price pull-right">122.38 €</span>
                             </div>
                             <div class="cart-buttons">
-                                <a href="order.html" class="btn-check-out">Checkout</a>
+                                <a href="order.html" class="btn-check-out">Thanh toán</a>
                             </div>
                         </div>
                     </div>
