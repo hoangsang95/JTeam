@@ -39,3 +39,37 @@
 <script> $('#facebook_message .panel-heading').click(function(){ var $this = $(this); if (!$this.hasClass('panel-collapsed')) { $this.parents('.panel').find('.panel-body').slideUp(); $this.addClass('panel-collapsed'); $this.find('span.icon_minim').removeClass('glyphicon-minus').addClass('glyphicon-plus'); } else { $this.parents('.panel').find('.panel-body').slideDown(); $this.removeClass('panel-collapsed'); $this.find('span.icon_minim').removeClass('glyphicon-plus').addClass('glyphicon-minus'); } }); </script>
 <!-- /Facebook Message -->
 
+<!-- Facebook Social Plugins -->
+iv id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=150886568763596";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- /Facebook Social Plugins -->
+
+<!-- Auto Complete -->
+  <script>
+  $( function() {
+    var availableTags = [
+      "Quần dài",
+      "Áo khoác",
+      "Gìay nam",
+      "Túi xách nữ",
+      "Váy",
+      "Đầm",
+      "Son môi",
+      "Kem dưỡng",
+      "Tẩy trang",
+      "Gìay cao gót",
+      "Sơ mi"
+    ];
+    $( "#keys" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
+<!-- /Auto Complete -->
+
