@@ -13,5 +13,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css?v=3" />
     <link rel="stylesheet" type="text/css" href="assets/css/option6.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <title>SkyFashion - Thời trang thời thượng</title>
 </head>
