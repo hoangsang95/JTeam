@@ -481,47 +481,11 @@
                                 <div id="reviews" class="tab-panel">
                                     <div class="product-comments-block-tab">
                                         <div class="comment row">
-                                            <div class="col-sm-3 author">
-                                                <div class="grade">
-                                                    <span>Grade</span>
-                                                    <span class="reviewRating">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="info-author">
-                                                    <span><strong>Jame</strong></span>
-                                                    <em>04/08/2015</em>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-9 commnet-dettail">
-                                                Phasellus accumsan cursus velit. Pellentesque egestas, neque sit amet convallis pulvinar
-                                            </div>
+                                            <div class="col-md-12">
+											   <div class="fb-comments" data-href="http://taiphude.000webhostapp.com/public/product" data-numposts="5" data-width="100%"></div>
+											</div>
                                         </div>
-                                        <div class="comment row">
-                                            <div class="col-sm-3 author">
-                                                <div class="grade">
-                                                    <span>Grade</span>
-                                                    <span class="reviewRating">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="info-author">
-                                                    <span><strong>Author</strong></span>
-                                                    <em>04/08/2015</em>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-9 commnet-dettail">
-                                                Phasellus accumsan cursus velit. Pellentesque egestas, neque sit amet convallis pulvinar
-                                            </div>
-                                        </div>
+                                        
                                         <p>
                                             <a class="btn-comment" href="#">Write your review !</a>
                                         </p>
